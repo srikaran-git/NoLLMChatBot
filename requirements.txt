@@ -1,0 +1,2 @@
+# The project metadata in pyproject.toml is the single dependency source.
+-e .

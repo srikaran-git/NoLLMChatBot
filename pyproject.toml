@@ -1,0 +1,16 @@
+[project]
+name = "nollm-chatbot"
+version = "0.1.0"
+description = "An OpenAI-compatible chatbot with local MCP tools"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp<0.4.0",
+    "httpx>=0.28.1",
+    "langchain>=1.4.9",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.7.4",
+    "langgraph>=1.2.20",
+    "python-dotenv>=1.2.4",
+    "typesafe-sdk>=0.7.5",
+]
